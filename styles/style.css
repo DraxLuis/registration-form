@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:linear-gradient(45deg, transparent, #009688);
+    font-family: 'Poppins', sans-serif;
+}
+
+.ctn{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ctn-p{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+}
+
+.ctn-img, .ctn-form{
+    flex-basis: 50%;
+}
+
+.ctn-img img{
+    width: 100%;
+    display: block;
+}
+
+.ctn-arriba-text h2{
+    color: #333;
+    font-weight: 600;
+}
+
+.ctn-arriba-text div p{
+    margin-top: 3px;
+    font-size: 12px;
+}
+
+.ctn-arriba-text span{
+    color: #ef005d;
+    font-weight: 500;
+}
+
+.ctn-arriba-text a{
+    text-decoration: none;
+}
+
+.ctn-form{
+    color: #333;
+    background: #fff;
+    padding: 40px 70px;
+}
+
+.btn-google{
+    font-size: 13px;
+    margin-top: 20px;
+    background: #fff;
+    border: 1px solid #ef005d;
+    border-radius: 5px;
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+}
+
+.btn-google img{
+    margin-right: 8px;
+    width: 25px;
+}
+
+.or{
+    font-size: 15px;
+    text-align: center;
+    padding-top: 17px;
+    padding-bottom: 15px;
+}
+
+.email{
+    font-size: 13px;
+    background: #fff;
+    border: 1px solid #ef005d;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+}
+
+form label{
+    font-size: 13px;
+    color: black;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+form input{
+    margin-bottom: 10px;
+}
+
+.check-terms span{
+    color: #ef005d;
+    font-weight: 500;
+}
+
+.check-terms{
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.check-terms p{
+    position: relative;
+    bottom: 5.5px;
+    left: 6px;
+}
+
+.btn-register{
+    font-size: 13px;
+    background: #ef005d;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+}
+
+.btn-register a{
+    color: #fff;
+    text-decoration: none;
+}
