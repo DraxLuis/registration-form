@@ -24,10 +24,12 @@ body{
     align-items: center;
     width: 100%;
     max-width: 800px;
+    flex-wrap: wrap;
 }
 
 .ctn-img, .ctn-form{
     flex-basis: 50%;
+    flex-grow: 1;
 }
 
 .ctn-img img{
@@ -135,4 +137,8 @@ form input{
 .btn-register a{
     color: #fff;
     text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+
 }
